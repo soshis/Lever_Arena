@@ -1,0 +1,16 @@
+# initial threhold constant file , used in 'Rehab.py'
+rat35 = 2350
+rat38 = 2350
+rat39 = 2350
+rat42 = 2350
+rat43 = 2500
+rat44 = 2350
+rat45 = 2350
+rat47 = 2350
+rat49 = 2350
+rat52 = 2350
+rat53 = 2350
+rat54 = 2350
+rat55 = 2350
+
+ratxx = 2700
