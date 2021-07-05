@@ -9,7 +9,7 @@ Last modifictation:5/29/2017
 
 *********************** Procedure *********************** 
 
-Sessions last from 12 to 16 min. Animals are fully water restricted for 24 hours a day except 30 min to an hour of 
+Sessions last from 5 to 20 min. Animals are fully water restricted for 24 hours a day except 30 min to an hour of 
 ad libitum water following the completion of the training session for the day.
 
 
@@ -23,7 +23,7 @@ Acclimatization period
 2-3 days.
 
 
-After the one-week acclimatization period, begin water restriction by 4-hour increments per day until 24 hours’ 
+After the one-week acclimatization period, begin water restriction by 4-hour increments per day until 24 hoursâ€™ 
 restriction is achieved. Body weight is monitored. At the same time, handling and introduction to each reward is 
 performed.
 
@@ -36,23 +36,23 @@ have access to ad libitum water.
 
 Use training python script:
 Open 'Training_Step(number).py file' in lever arena folder -> press F5 (should make the program start) -> type in 
-animal’s number -> start training -> After training press Ctrl+C to terminate session.
+animalâ€™s number -> start training -> After training press Ctrl+C to terminate session.
 
-Exception for Step6: Open “Training_Step(number).py' file in lever arena folder -> press F5 (should make the 
-program start) -> type in animal’s number -> type last vertical position reached (0, 1 or 2) -> type last horizontal 
+Exception for Step6: Open â€œTraining_Step(number).py' file in lever arena folder -> press F5 (should make the 
+program start) -> type in animalâ€™s number -> type last vertical position reached (0, 1 or 2) -> type last horizontal 
 position reached (0, 1, 2, 3 or 4) -> start training -> After training press Ctrl+C to terminate session.
 
 
 *** Phase 1 : nose spoke, lever push.
 
 - Step 1: perform nose poke. Success for nose poke is notified with beep sound and reward. After a single session 
-	with 40 trials, the step is completed. Don’t forget to progressively adjust the gain knob to its minimum. Nose 
+	with 40 trials, the step is completed. Donâ€™t forget to progressively adjust the gain knob to its minimum. Nose 
 	spoke should not be neglected. Rats that don't learn to do nose spoke right inside the sensor neck performed 
 	poorer when the task become more complicated. They learn slower as they get easier confuse and their lever pushes 
-	are less ‘proper’(expected time: 2 sessions).
+	are less â€˜properâ€™(expected time: 2 sessions).
 
 - Step 2: Learning to push the lever. Each time, start with 5 nose spokes to get the reward. First real lever is in low 
-	position (v_pos = 0.00110, h_pos =0 .0130). Use dummy lever to draw rat’s attention. Give reward when rat touches 
+	position (v_pos = 0.00110, h_pos =0 .0130). Use dummy lever to draw ratâ€™s attention. Give reward when rat touches 
 	the dummy lever and then when the rat touches the dummy lever. Start by putting the dummy lever at a similar level 
 	than the platform and then, to prevent him using its teeth, lower your dummy lever. Once rat learned to pushes a 
 	little bit the dummy lever, shift attention from dummy lever to real lever by rising the real lever to 
@@ -70,7 +70,7 @@ position reached (0, 1, 2, 3 or 4) -> start training -> After training press Ctr
 	(v_pos = 0.00110). Then, lever is moved: v_pos = 0.00130 and h_pos = 0.00120, threshold= 2400. Usually, the rat will 
 	push the lever, maintaining it pushed while exploring the environment with its nose. once he learns the association: 
 	push + nose spoke => reward, he will become more efficient (doing nose spoke, then a short push on the lever). Again 
-	don’t underestimate the importance of the step. The rat need to stick is head right in front of the sensor. Rat 
+	donâ€™t underestimate the importance of the step. The rat need to stick is head right in front of the sensor. Rat 
 	performing well here, usually learn quicker the most complex step as they can focus on the lever push. When you 
 	noticed the rat learn to do both tasks to get the reward, go step 5. (expected time: 2 sessions).
 
